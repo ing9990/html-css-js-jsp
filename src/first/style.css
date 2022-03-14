@@ -1,0 +1,60 @@
+body{
+    margin: 30px;
+}
+
+a{
+    font-size: 20px;
+}
+
+#header{
+    text-align: center;
+    margin-top: 90px;
+}
+
+#hi{
+    display: flex;
+}
+
+#one_introduce{
+    text-align: center;
+    font-size: 30px;
+}
+
+#img_div{
+    width: 300px;
+    height: 300px;
+}
+
+#order_list_href{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#content{
+    margin-top: 100px;
+    width: 400px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+#li_img{
+    width: 200px;
+    display: flex;
+    position: relative;
+    left: 550px;
+}
+
+#ol_list{
+    list-style: none;
+    width: 600px;
+}
+
+#strong{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#table{
+    position: absolute;
+    left: 100px;
+}
