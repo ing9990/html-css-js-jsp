@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--content-->
+
+<h1 id="heading">안 녕 친 구 들</h1>
+<video width="600" height="400" controls autoplay src="./components/video.mp4"></video>
+<div id="hello"></div>
+<a href="#heading"><img id="img" src="https://img.pikbest.com/png-images/qianku/red-stroke-arrow_2384391.png!bw700"
+                        alt="맨 위로"></a>
+<br>
+
+<!--content-->
+
+
+<!--form-->
+<fieldset>
+    <legend>회원가입 정보</legend>
+
+<form action="">
+    <input type="text"
+           placeholder="아이디를 입력하세요."
+           name="username"
+           required
+           maxlength="15"
+           minlength="5"> <br>
+
+    <input type="password"
+           placeholder="비밀번호를 입력하세요."
+           name="password"
+           required
+           maxlength="15"
+           minlength="5"> <br>
+
+    <input type="date" placeholder="생년월일을 입력하세요."> <br>
+
+    <select name="dept" id="dept_selected">
+        <option selected>선택</option>
+        <option value="1">컴퓨터 공학과</option>
+        <option value="2">메카트로닉스과</option>
+        <option value="3">AI과</option>
+    </select>
+    <br>
+
+
+    남자 <input type="radio" name="gender" value="m" > 여자 <input type="radio" name="gender" value="w"> <br>
+    서울 <input type="radio" name="locate"> 부산 <input type="radio" name="locate"> <br>
+
+    <textarea name="text22" id="text22" cols="30" rows="10"></textarea> <br>
+
+    <input type="submit"  value="회원 가입" > <br>
+</form>
+</fieldset>
+<!--form-->
+
+</body>
+</html>

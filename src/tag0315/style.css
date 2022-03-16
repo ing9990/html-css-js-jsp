@@ -1,0 +1,27 @@
+body{
+    height: 4000px;
+    text-align: center;
+    align-items: center;
+}
+
+form > input{
+    margin-top: 20px;
+}
+
+form > select{
+    margin-top: 20px;
+}
+
+form > textarea{
+    margin-top: 20px;
+}
+
+
+
+#hello{
+    height:2000px;
+}
+
+#img{
+    width: 300px;
+}
