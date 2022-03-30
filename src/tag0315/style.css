@@ -25,3 +25,7 @@ form > textarea{
 #img{
     width: 300px;
 }
+
+input[onselect]{
+    color:red;
+}
