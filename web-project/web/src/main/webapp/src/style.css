@@ -1,0 +1,66 @@
+html{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+
+#header-wrapper {
+    height: 1080px;
+    background-color: yellow;
+}
+
+#content-wrapper {
+    height: 7000px;
+    /*background-color: blue;*/
+}
+
+#footer-wrapper {
+    height: 780px;
+    background-color: red;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+list{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
