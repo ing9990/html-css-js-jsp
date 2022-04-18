@@ -35,8 +35,7 @@ p{
 
 .box{
     border-radius: 20px;
-
-    box-shadow: 1px 1px 10px gray   ;
+    box-shadow: 1px 1px 10px gray;
     border: 1px solid white;
     padding-bottom: 100px;
     margin: 15px auto;

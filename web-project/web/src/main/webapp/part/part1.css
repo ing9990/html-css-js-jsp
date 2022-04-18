@@ -1,0 +1,109 @@
+*{
+    border-collapse : collapse;
+    color: #000;
+    list-style: none;
+    text-decoration : none;
+}
+
+.text-type1{
+    font-size:100px;
+    font-weight : bold;
+}
+.text-type2{
+    font-size:60px;
+    font-weight : bold;
+}
+/* 나중에 hover용 */
+.header{
+    flex:2;
+    display:flex;
+    /* width:1920px; */
+    width:100%;
+    margin:auto;
+    /* background: red; */
+    height:330px;
+}
+.header-logo{
+    flex:2;
+    /* background : skyblue; */
+    z-index: 1000;
+}
+.header-logo > img{
+    margin-top : 5px;
+    margin-left : 10px;
+    width:220px;
+    height:100px;
+}
+
+.nav{
+    height:350px;
+    flex:7;
+    display:flex;
+    /*   	background : blue;  */
+    color:#fff;
+}
+.nav > li{
+    margin-left : 120px;
+    margin-top: 30px;
+    font-size: 19px;
+
+}
+.nav > li > a{
+    color:#fff;
+    font-weight : bold;
+}
+.header-demo{
+    flex:3;
+    /* background : yellow; */
+}
+
+/* 동영상 안의 텍스트 */
+.video_text{
+    width:100%;
+    height: 300px;
+    margin:120px auto 120px auto;
+    /*  	background:red;   */
+    text-align:center;
+}
+.video_text >h1{
+    font-size : 48px;
+}
+.video_text >h1,
+.video_text >h4{
+    color:#fff;
+}
+
+.header-demo{
+    display:flex;
+
+}
+.header-demo-inner{
+    width:120px;
+    height:40px;
+    margin:45px;
+    border-radius : 40px;
+    text-align: center;
+    background:#2F7AF4;
+    color:White;
+}
+.header-chagne-languge{
+    width:120px;
+    height:40px;
+    margin-top:45px;
+    border-radius : 40px;
+    text-align: center;
+    background:#2F7AF4;
+    color:White;
+}
+
+video{
+    z-index: -1000;
+    width: 100%;
+    position: absolute;
+}
+
+.part2{
+    width: 100%;
+    height: 2000px;
+    background : skyblue;
+}
