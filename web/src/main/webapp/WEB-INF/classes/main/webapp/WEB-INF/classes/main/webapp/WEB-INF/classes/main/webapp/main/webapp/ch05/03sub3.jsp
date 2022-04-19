@@ -10,7 +10,9 @@
 <head>
     <title>Title</title>
 </head>
-<body>
+<body style="text-align: center;">
 
+<jsp:include page="03includeTop.jsp"></jsp:include>
+<h1>커뮤니티</h1>
 </body>
 </html>

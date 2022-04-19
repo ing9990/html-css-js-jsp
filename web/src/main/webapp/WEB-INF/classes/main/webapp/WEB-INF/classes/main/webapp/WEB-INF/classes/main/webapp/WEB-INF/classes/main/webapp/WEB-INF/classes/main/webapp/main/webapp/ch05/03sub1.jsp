@@ -10,7 +10,7 @@
 <head>
     <title>Title</title>
 </head>
-<body>
+<body style="text-align: center">
 <jsp:include page="03includeTop.jsp"></jsp:include>
 <h1>캠퍼스 안내</h1>
 
