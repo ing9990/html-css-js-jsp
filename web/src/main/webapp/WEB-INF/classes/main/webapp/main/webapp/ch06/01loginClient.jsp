@@ -12,6 +12,13 @@
 </head>
 <body>
 
+<%
+        
+%>
+
+
+
+
 <fieldset style="font-size: 24px; text-align: center; margin: 20px 20px 20px 20px; " >
 
     <legend style="margin-bottom: 15px"><h1>로그인</h1></legend>

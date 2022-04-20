@@ -17,7 +17,9 @@
     String pw = request.getParameter("pw");
 
     response.sendRedirect(id.equals("test") && pw.equals("123") ?  "01loginClient.jsp" : "01loginFail.jsp");
-%>
+
+    
+%>s
 
 </body>
 </html>

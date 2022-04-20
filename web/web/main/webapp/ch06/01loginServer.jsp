@@ -17,7 +17,15 @@
     String pw = request.getParameter("pw");
 
     response.sendRedirect(id.equals("test") && pw.equals("123") ?  "01loginClient.jsp" : "01loginFail.jsp");
-%>
+
+    if(id.equals("test") && pw.equals("123")){
+        session.setAttribute("memLogin", true );
+        response.sendRedirect("01loginClient.jsp");
+    }else{
+        response.sendRedirect("01loginFail.jsp");
+    }
+
+%>s
 
 </body>
 </html>
