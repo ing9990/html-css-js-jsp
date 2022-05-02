@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+body{/*배경색에 그라데이션 지정*/
+	background : -webkit-gradient(linear, left top, left bottom, from(#55f), to(#fff));
+} 
+
+header{/*header엘리먼트에 적용*/
+    position : relative;
+    height : 80px;
+}
+
+#content{/*id속성의 값이 content인 엘리먼트에 적용*/
+    margin : -10px 9px 50px;
+    height : 65%;
+    width : 90%;
+}
+
+#areaMain{/*id속성의 값이 areaMain인 엘리먼트에 적용*/
+	width : 70%;
+	float : right; /*배치 : 오른쪽*/
+	padding : 10px 0;
+	background-color : #fff;
+	border-radius: 8px; /*모서리 둥글게 처리*/
+	-webkit-border-radius: 8px;
+	position : relative;
+}
+
+#areaSub{/*id속성의 값이 areaSub인 엘리먼트에 적용*/
+	float : left; /*배치 : 왼쪽*/
+	 
+}
+
+footer{/*footer엘리먼트에 적용*/
+	clear : both; /*배치 left, right를 모두 제거*/
+	height : 15%;
+}
